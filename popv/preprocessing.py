@@ -278,7 +278,7 @@ class Process_Query:
                 axis=0,
                 label="_dataset",
                 keys=["ref", "query"],
-                join="outer",
+                join="inner",
                 fill_value=self.unknown_celltype_label,
             )
 
